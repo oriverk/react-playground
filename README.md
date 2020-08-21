@@ -1,3 +1,6 @@
+# Reference
+[Qiita: 第5回 2020年版 ReactのRechartsで新型コロナウイルス感染症対策サイトのデータを可視化する](https://qiita.com/tetsurotayama/items/f5eda6dc2bbcd1f71b4e)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
