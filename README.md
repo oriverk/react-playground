@@ -1,3 +1,7 @@
+# this repositiory comes from
+a qiita post: [【React Hooks入門】useStateを使って買い物リストを作るチュートリアル](https://qiita.com/terry_6518/items/1849a3aed05e1fa2ce35)
+and this orginal repository is here: https://github.com/gunners6518/shopping-list
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
