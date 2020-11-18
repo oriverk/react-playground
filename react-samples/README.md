@@ -18,6 +18,8 @@ is below
   - yarn add use-throttle
     - reference is https://github.com/bhaskarGyan/use-throttle
 - useEffect sample from react.org
+- mouse Location with debounce (this debounce doesnot use other lib)
+  - reference is [dev.to - useDebounce hook in React, Improve performance of your React app with Debouncing](https://dev.to/onygami/improve-performance-of-your-react-app-with-debouncing-build-your-own-usedebounce-hook-1fb1)
 
 ### count
 ```jsx

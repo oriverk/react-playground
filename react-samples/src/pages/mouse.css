@@ -1,0 +1,41 @@
+#mouse_example {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  border: 2px solid red;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#mouse_example::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px dotted #ff3a3a;
+  transform: translate(-50%);
+}
+
+#mouse_example::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 2px dotted #ff3a3a;
+  transform: translate(0, -50%);
+}
+
+#delay {
+  padding: 5px;
+  margin-left: 110px;
+  font-size: 30px;
+}

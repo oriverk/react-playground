@@ -12,6 +12,7 @@ import ControlledForm from './pages/ControlledForm';
 import UncontrolledForm from './pages/UncontrolledForm';
 import UseDebounceThrottle from './pages/UseDebounceThrottle';
 import EffectSample from './pages/EffectSample'
+import Mouse from './pages/Mouse';
 
 function App() {
   return (
@@ -25,10 +26,14 @@ function App() {
             <Link to='/uncontrolled-form'> Uncontrolled-form </Link>
             <Link to='/debounce-throttle'> debounce-throttle </Link>
             <Link to='/useEffect-sample'> useEffect-sample </Link>
+            <Link to='/mouse-with-debounce'> mouse-debounce </Link>
           </nav>
         </div>
 
         <Switch>
+          <Route path='/mouse-with-debounce'>
+            <Mouse />
+          </Route>
           <Route path='/useEffect-sample'>
             <EffectSample />
           </Route>
