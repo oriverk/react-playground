@@ -17,6 +17,7 @@ is below
     - reference is https://github.com/xnimorz/use-debounce
   - yarn add use-throttle
     - reference is https://github.com/bhaskarGyan/use-throttle
+- useEffect sample from react.org
 
 ### count
 ```jsx
@@ -95,5 +96,23 @@ function Throttle() {
       <p>Throttle value: {throttledText}</p>
     </div>
   );
+}
+```
+
+### useEffect
+```jsx
+function EffectSample() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    document.title = `U clicked ${count} times.`
+  })
+  return (
+    <div className='App'>
+      <p>you clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  )
 }
 ```

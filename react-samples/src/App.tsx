@@ -11,6 +11,7 @@ import Count from './pages/Count'
 import ControlledForm from './pages/ControlledForm';
 import UncontrolledForm from './pages/UncontrolledForm';
 import UseDebounceThrottle from './pages/UseDebounceThrottle';
+import EffectSample from './pages/EffectSample'
 
 function App() {
   return (
@@ -23,10 +24,14 @@ function App() {
             <Link to='/controlled-form'> controlled-form </Link>
             <Link to='/uncontrolled-form'> Uncontrolled-form </Link>
             <Link to='/debounce-throttle'> debounce-throttle </Link>
+            <Link to='/useEffect-sample'> useEffect-sample </Link>
           </nav>
         </div>
 
         <Switch>
+          <Route path='/useEffect-sample'>
+            <EffectSample />
+          </Route>
           <Route path='/debounce-throttle'>
             <UseDebounceThrottle />
           </Route>
